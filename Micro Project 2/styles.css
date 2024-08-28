@@ -1,0 +1,319 @@
+.body {
+  scroll-behavior: smooth;
+  margin: 0%;
+  margin-bottom: 500px;
+}
+
+.NavBar {
+  width: auto;
+  height: 100px;
+  background-color: #6f6af7;
+  position: relative;
+}
+
+div.Nav h1 {
+  position: absolute;
+  font-family: "Delius Unicase";
+  font-weight: 700;
+  line-height: 78.81px;
+  font-size: 50.43px;
+  color: #ffffff;
+  padding: 0%;
+  margin: 0%;
+  left: 20px;
+  top: 10px;
+}
+
+.Nav ul {
+  position: absolute;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  left: 12%;
+  top: 30px;
+}
+
+.Nav ul li {
+  text-indent: 45px;
+  color: #ffffff;
+  font-family: "DM Sans";
+  font-weight: 400;
+  line-height: 10.43px;
+  font-size: 36.43px;
+}
+
+#imgg {
+  position: absolute;
+  left: 100.5%;
+  bottom: -1px;
+}
+
+div.Nav img {
+  position: absolute;
+  left: 93%;
+  bottom: 25px;
+}
+
+div.Nav input {
+  position: absolute;
+  width: 270px;
+  height: 57px;
+  top: 22px;
+  border-radius: 63px;
+  border-color: #00000022;
+  left: 69%;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 24.43px;
+  line-height: 31.81px;
+}
+
+.CodeContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CodeContent img {
+  position: relative;
+  left: 5%;
+  top: 60px;
+  border-radius: 20px;
+  width: 430px;
+  height: 470px;
+}
+
+.CodeContent p {
+  position: absolute;
+  font-size: 25px;
+  width: 53%;
+  height: 381px;
+  top: 57px;
+  left: 35%;
+  border-radius: 20px;
+  border: 6px;
+  background-color: #e5d8ff;
+  font-family: "DM Sans";
+  font-weight: 400;
+  line-height: 51.82px;
+  padding: 1rem;
+  margin-right: 150px;
+  box-shadow: 2px 2px 2px 2px #00000022;
+  color: #6f7373;
+}
+
+.Cards {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.Cards ul {
+  position: inherit;
+  top: 90px;
+  width: 240px;
+  height: 90px;
+  list-style: none;
+  color: #ffffff;
+  font-family: "DM Sans";
+  font-weight: 700;
+  border-radius: 11px;
+  letter-spacing: 4px;
+  line-height: 40px;
+  font-size: 20px;
+  box-shadow: 3px 3px 3px 3px #00000022;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+#c1 {
+  background-color: #929dff;
+  margin-left: -1050px;
+  position: relative;
+}
+
+#c2 {
+  background-color: #734cf2;
+  margin-left: -390px;
+  position: absolute;
+}
+
+#c3 {
+  background-color: #d288ff;
+  margin-left: 280px;
+  position: absolute;
+}
+
+#c4 {
+  background-color: #000000;
+  margin-left: 940px;
+  position: absolute;
+}
+
+.SocialMedia ul {
+  list-style-type: none;
+  position: fixed;
+  top: 250px;
+  right: 5px;
+}
+
+.SocialMedia img {
+  height: 80px;
+}
+
+.InfoView {
+  width: 88%;
+  height: 650px;
+  top: 850px;
+  left: 83px;
+  border-radius: 21px;
+  background-color: #483eff;
+  position: absolute;
+}
+
+.InfoCard {
+  width: 62.5%;
+  height: 90%;
+  top: 35px;
+  left: 450px;
+  border-radius: 19px;
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.InfoCard ul {
+  list-style: none;
+  font-family: "Roboto";
+  letter-spacing: 10%;
+}
+
+#h {
+  width: 350px;
+  height: 110px;
+  top: 40px;
+  left: 40px;
+  border-radius: 22px;
+  background-color: #bce0f6;
+  letter-spacing: 2px;
+  color: #000000;
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+  line-height: 113px;
+  text-align: center;
+  font-family: "DM Sans";
+}
+
+#hh {
+  width: 350px;
+  height: 110px;
+  top: 233px;
+  left: 40px;
+  border-radius: 22px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+  border: 5px;
+  border-color: #ffffff;
+  border-style: solid;
+  line-height: 113px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "DM Sans";
+}
+
+#hhh {
+  width: 350px;
+  height: 110px;
+  top: 430px;
+  left: 40px;
+  border-radius: 22px;
+  border: 5px;
+  letter-spacing: 2px;
+  border-color: #ffffff;
+  color: #ffffff;
+  position: absolute;
+  border-style: solid;
+  line-height: 113px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "DM Sans";
+}
+
+div.InfoView h2 {
+  position: relative;
+  top: 40px;
+  left: 60px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 38px;
+  letter-spacing: 2px;
+  color: #04285a;
+}
+
+.InfoDash input {
+  width: 170px;
+  height: 65px;
+  top: 530px;
+  left: 1030px;
+  border-radius: 9px;
+  background-color: #000000;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35.16px;
+  letter-spacing: 5%;
+  color: #ffffff;
+  position: absolute;
+}
+
+#info {
+  position: relative;
+  top: 35px;
+  left: 50px;
+  font-family: "Roboto";
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 55.81px;
+  letter-spacing: 3px;
+  color: #04285a;
+}
+
+#info2 {
+  position: absolute;
+  left: 175px;
+  top: 122px;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 55.21px;
+  letter-spacing: 2px;
+  color: #04285a;
+}
+
+main {
+  position: relative;
+}
+
+#RK {
+  position: fixed;
+  right: 5%;
+  bottom: -3%;
+  height: 150px;
+}
+
+.Nav a {
+  position: absolute;
+  left: 85%;
+  top: 39%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.rk1 {
+  cursor: pointer;
+}
+
+.Footer {
+  margin-bottom: 65%;
+}
