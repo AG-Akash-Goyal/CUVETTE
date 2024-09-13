@@ -17,7 +17,7 @@ p {
   position: absolute;
   width: 536px;
   height: 425px;
-  top: 280px;
+  top: 270px;
   left: 30%;
   background-color: #252d44;
   box-shadow: 25%;
@@ -28,8 +28,8 @@ p {
 
 .DisplayContainer input {
   position: absolute;
-  width: 529px;
-  height: 140px;
+  width: 484px;
+  height: 130px;
   top: 120px;
   left: 30.14%;
   background-color: #181f32;
@@ -41,6 +41,8 @@ p {
   color: #ffffff;
   text-align: right;
   border: 0;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 .OperationContainer button {
