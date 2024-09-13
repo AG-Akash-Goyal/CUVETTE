@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Calculator</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <p>calc</p>
+    <main>
+      <div class="DisplayContainer">
+        <input type="text" readonly class="Disp"/>
+      </div>
+      <div class="OperationContainer">
+        <button onclick="Displays('7')">7</button>
+        <button onclick="Displays('8')">8</button>
+        <button onclick="Displays('9')">9</button>
+        <button onclick="dee()" id="Del">DEL</button>
+        <button onclick="Displays('4')">4</button>
+        <button onclick="Displays('5')">5</button>
+        <button onclick="Displays('6')">6</button>
+        <button onclick="Displays('+')">+</button>
+        <button onclick="Displays('1')">1</button>
+        <button onclick="Displays('2')">2</button>
+        <button onclick="Displays('3')">3</button>
+        <button onclick="Displays('-')">-</button>
+        <button onclick="Displays('.')">.</button>
+        <button onclick="Displays('0')">0</button>
+        <button onclick="Displays('/')">/</button>
+        <button onclick="Displays('x')">X</button>
+        <div class="Operators">
+          <button onclick="Output()" id="EqualsTo">=</button>
+          <button onclick="Reset()" id="Reset">RESET</button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

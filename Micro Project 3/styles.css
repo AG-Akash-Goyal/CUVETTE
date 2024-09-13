@@ -1,0 +1,99 @@
+body {
+  background-color: #3b4664;
+  position: relative;
+}
+
+p {
+  position: absolute;
+  top: 45px;
+  left: 30.3%;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 800;
+  font-family: "Inter";
+}
+
+.OperationContainer {
+  position: absolute;
+  width: 536px;
+  height: 425px;
+  top: 280px;
+  left: 30%;
+  background-color: #252d44;
+  box-shadow: 25%;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, 120px);
+}
+
+.DisplayContainer input {
+  position: absolute;
+  width: 529px;
+  height: 140px;
+  top: 120px;
+  left: 30.14%;
+  background-color: #181f32;
+  box-shadow: 25%;
+  border-radius: 12px;
+  font-size: 55px;
+  font-weight: 900;
+  font-family: "Segoe UI";
+  color: #ffffff;
+  text-align: right;
+  border: 0;
+}
+
+.OperationContainer button {
+  position: relative;
+  top: 35px;
+  left: 37px;
+  width: 100px;
+  height: 55px;
+  border-radius: 12px;
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 29px;
+  background-color: #eae3db;
+  color: #3b4664;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.01s ease;
+}
+
+#Del {
+  background-color: #647299;
+  color: #ffffff;
+  font-size: 23px;
+  padding-top: 5px;
+  text-shadow: 0 4px 4px #00000076;
+}
+
+.Operators {
+  display: grid;
+  grid-template-columns: repeat(2, 240px);
+}
+
+.Operators button {
+  width: 222.44px;
+  height: 55px;
+  border-radius: 11.52px;
+  color: #ffffff;
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 29px;
+  margin-bottom: 50px;
+}
+
+#EqualsTo {
+  background-color: #d13f30;
+}
+
+#Reset {
+  background-color: #647299;
+  font-size: 23px;
+  padding-top: 5px;
+}
+
+button:active {
+    transform: scale(0.95);
+}
